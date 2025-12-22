@@ -1,4 +1,3 @@
-// Use async function to handle promises cleanly
 async function fetchApiData() {
   const apiUrl = 'https://api.artic.edu/api/v1/artworks';
 
@@ -16,10 +15,9 @@ async function fetchApiData() {
     return data;
 
   } catch (error) {
-    // handle error
+    
     console.error('Error fetching data:', error);
   }
 }
 
-// Call the function
 fetchApiData();
