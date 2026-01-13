@@ -1,5 +1,5 @@
 async function fetchApiData() {
-  const apiUrl = 'https://api.artic.edu/api/v1/artworks';
+  const apiUrl = 'https://random-d.uk/api/';
 
   try {
     
