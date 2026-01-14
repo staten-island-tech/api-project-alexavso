@@ -1,5 +1,5 @@
 async function fetchApiData() {
-  const apiUrl = 'https://random-d.uk/api/';
+  const apiUrl = 'https://random-d.uk/api/random';
 
   try {
     
