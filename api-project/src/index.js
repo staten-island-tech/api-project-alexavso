@@ -1,3 +1,5 @@
+import "./style.css";
+
 document.getElementById("loadBtn").addEventListener("click", () => {
   const num = parseInt(document.getElementById("numberInput").value);
   if (isNaN(num) || num < 1) {
